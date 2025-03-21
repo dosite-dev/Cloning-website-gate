@@ -480,9 +480,7 @@ button :hover {
     padding: 20px;
     border-radius: 20px;
 }
-.house-tower{
-    /* width: 200%; */
-}
+
 .house-tower img{
     position: absolute;
     width: 40%;
@@ -546,6 +544,37 @@ button :hover {
 /* At work section  ends*/
 
 /* footer down  start */
+.footer-bar{
+    position: absolute;
+    top: 250em;
+    display: flex;
+    background-color: rgb(206, 204, 204);
+    width: 100%;
+    padding: 30px;
+    /* justify-content: space-between; */
+}
+.footer-bar .left-bars .left-bars-links{
+    display: flex;
+    list-style: none;
+
+}
+.footer-bar .left-bars .left-bars-links a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+
+
+}
+.footer-bar .left-barsb .left-bars-links{
+    display: flex;
+    list-style: none;
+}
+.footer-bar .left-barsb .left-bars-links a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
 
 
 /* footer down  end */
