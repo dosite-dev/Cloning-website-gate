@@ -1,87 +1,93 @@
-*{
+* {
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.container{
-position: relative;
-background-color: url(pictures/feature-800.webp);
+
+.container {
+    position: relative;
+    background-color: url(pictures/feature-800.webp);
 }
+
 /* navbar upper section start */
-.header{
+.header {
     width: 100%;
     color: white;
 
 }
-.navbar{
+
+.navbar {
     background-color: #1E1B4B;
     display: flex;
     justify-content: space-between;
-    border-color:60px goldenrod ;
+    border-color: 60px goldenrod;
 
 }
 
 
-.navbar .nav-links{
+.navbar .nav-links {
     display: flex;
     float: right;
     list-style: none;
     background-color: #1E1B4B;
-    padding: 40px; 
-    position: relative;   
+    padding: 40px;
+    position: relative;
 }
-.navbar .nav-links a:hover{
-    background-color:#818CF8;
+
+.navbar .nav-links a:hover {
+    background-color: #818CF8;
     border-radius: 10px;
 
 }
 
-.navbar .nav-links a{
+.navbar .nav-links a {
     text-decoration: none;
-    color:white;
-    padding:20px
+    color: white;
+    padding: 20px
 }
 
 /* navbar upper section ends */
 /* second part start */
 
 
-.second-part{
-/* background-color: url(pictures/feature-bg-1600.jpeg); */
-display: flex;
-justify-content: space-between;
-position: relative;
-height: 75vh;
+.second-part {
+    /* background-color: url(pictures/feature-bg-1600.jpeg); */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 75vh;
 
 
 }
+
 /* navbar2 down section starts */
 
-.header2{
+.header2 {
     width: 50%;
     color: white;
     position: absolute;
     top: 0px;
     left: 550px;
 }
-.navbar2{
+
+.navbar2 {
     /* background-color: #50e769; */
     display: flex;
     justify-content: space-between;
-    padding: 20px;  
+    padding: 20px;
     width: 110%;
 
-    
+
 
 }
 
 
-.navbar2 .nav-links2{
+.navbar2 .nav-links2 {
     display: flex;
     float: right;
     list-style: none;
-    background-color:white;
+    background-color: white;
     padding: 20px;
     width: 750px;
     align-items: center;
@@ -90,27 +96,29 @@ height: 75vh;
     /* left: 20px;     */
 }
 
-.navbar2 .nav-links2 a{
+.navbar2 .nav-links2 a {
     text-decoration: none;
-    color:black;
-    padding:10px
+    color: black;
+    padding: 10px
 }
 
 /* navbar2 down section Ends */
 
 
-.second-part1{
+.second-part1 {
     position: absolute;
     top: 100px;
     left: 40px;
-    
+
 
 }
-.second-part1 p{
+
+.second-part1 p {
     top: 20px;
     font-size: 40px;
     font-weight: 700;
 }
+
 /* .second-part1 p::after{
     background-color: goldenrod;
     width: 100%;
@@ -118,22 +126,25 @@ height: 75vh;
     position: absolute;
     top: 90%;
 } */
-.second-part1 h6{
+.second-part1 h6 {
     font-size: 20px;
     font-weight: 200;
 }
-.second-part2{
+
+.second-part2 {
     position: absolute;
     left: 700px;
     top: 100px;
 
-    
+
 }
-.second-part2 img{
+
+.second-part2 img {
     width: 100%;
 }
+
 /* second-part line start*/
-.button{
+.button {
     display: flex;
     position: absolute;
     top: 450px;
@@ -141,7 +152,8 @@ height: 75vh;
     width: 250px;
     align-items: center;
 }
-button :hover{
+
+button :hover {
     background-color: white;
     padding: 20px;
     border-radius: 15px;
@@ -152,56 +164,63 @@ button :hover{
 
 
 }
-.button img{
+
+.button img {
     width: 20px;
     position: absolute;
     left: 120px;
     top: 10px;
 
 }
-.button a{
+
+.button a {
     text-decoration: none;
     color: black;
     font-size: 20px;
-    }
+}
 
 /* second part ends */
 
 
 /* Third part starts */
-.third-part1{
+.third-part1 {
     width: 40%;
     margin-top: 5%;
     position: absolute;
 }
-.third-part1 :hover{
-    background-color:#D1D5DB;
+
+.third-part1 :hover {
+    background-color: #D1D5DB;
 }
-.image{
-    height: 50vh; 
+
+.image {
+    height: 50vh;
     width: 100%;
     overflow: hidden;
-    
+
 }
-.third-part1 img{
+
+.third-part1 img {
     width: 100%;
     height: 50vh;
     overflow: hidden;
-    
+
 }
-.third-part1 .text{
+
+.third-part1 .text {
     padding: 50px;
     padding-left: 80px;
 }
- 
-.third-part2{
+
+.third-part2 {
     position: absolute;
     top: 700px;
     left: 600px;
     /* width: 120%; */
 }
-.thirdb :hover{
-    background-color:#D1D5DB;
+
+.thirdb :hover {
+    background-color: #D1D5DB;
     padding: 20px;
     margin-right: 20px;
     padding-right: 30px;
@@ -211,33 +230,37 @@ button :hover{
 
 }
 
-.third-part3{
+.third-part3 {
     position: absolute;
     top: 900px;
     left: 600px;
 }
-.third-part p{
+
+.third-part p {
     margin-bottom: 20px;
 }
+
 /* Third part ends*/
 
 /* fourth part start */
-.fourth-part{
+.fourth-part {
     background-color: #1E1B4B;
     position: relative;
     top: 45em;
     height: 190vh;
 
 }
-.fourth-parta img{
+
+.fourth-parta img {
     position: absolute;
     width: 60%;
     top: 0px;
     margin-top: -2em;
 
 }
+
 /* forthb starts */
-.fourth-partb-text{
+.fourth-partb-text {
     position: absolute;
     left: 55em;
     top: 5em;
@@ -245,21 +268,24 @@ button :hover{
     padding-right: 20px;
 
 }
-.fourth-partb .Research{
+
+.fourth-partb .Research {
     position: absolute;
     left: 69em;
     top: 22em;
-    
+
 
 }
-.fourth-partb-text p{
+
+.fourth-partb-text p {
     font-size: 20px;
 
 }
-.fourth-partb .Research a{
-    font-size: 1.5em ;
+
+.fourth-partb .Research a {
+    font-size: 1.5em;
     text-decoration: none;
-    color:white;
+    color: white;
     background-color: none;
     padding: 10px;
     border-radius: 5px;
@@ -267,44 +293,51 @@ button :hover{
 
 
 }
-.fourth-partb .Research a:hover{
-    background-color:#94A3B8;
+
+.fourth-partb .Research a:hover {
+    background-color: #94A3B8;
     padding: 10px;
 }
-.fourth-partb-text p{
+
+.fourth-partb-text p {
     margin-bottom: 20px;
 
 }
-.fourth-partb-text h1{
+
+.fourth-partb-text h1 {
     margin-bottom: 20px;
 
 }
+
 /* forthb end */
 
 
 /* fourthc starts */
-.fourth-partc{
+.fourth-partc {
     position: absolute;
     top: 30em;
     color: white;
 
 }
-.fourth-partc .faith a{
+
+.fourth-partc .faith a {
     text-decoration: none;
     color: white;
     top: 50em;
 
 
 }
-.fourth-partc-text p{
+
+.fourth-partc-text p {
     font-size: 20px;
     margin-bottom: 50px;
 
 }
-.fourth-partc .faith a{
-    font-size: 1.5em ;
+
+.fourth-partc .faith a {
+    font-size: 1.5em;
     text-decoration: none;
-    color:white;
+    color: white;
     background-color: none;
     padding: 10px;
     border-radius: 5px;
@@ -312,15 +345,18 @@ button :hover{
 
 
 }
-.fourth-partc .faith a:hover{
-    background-color:#94A3B8;
+
+.fourth-partc .faith a:hover {
+    background-color: #94A3B8;
     padding: 10px;
 }
-.fourth-partc-text p{
+
+.fourth-partc-text p {
     margin-bottom: 20px;
 
 }
-.fourth-partc-text h1{
+
+.fourth-partc-text h1 {
     margin-bottom: 20px;
 
 }
@@ -331,23 +367,24 @@ button :hover{
 /* fourthc ends */
 /* fourthd ends */
 
-.fourth-d .image{
+.fourth-d .image {
     position: absolute;
     width: 50%;
     top: 30em;
     left: 42.2em;
 
- /* width: 60px; */
+    /* width: 60px; */
 }
-.fourth-d .image img{
+
+.fourth-d .image img {
     width: 100%;
-    
+
 }
 
 /* fourthd ends */
 /* fourthe ends */
 
-.fourth-e .imagee{
+.fourth-e .imagee {
     position: absolute;
 
     width: 50%;
@@ -356,9 +393,10 @@ button :hover{
 
 
 }
-.fourth-e .imagee img{
+
+.fourth-e .imagee img {
     width: 100%;
-    
+
 }
 
 
@@ -366,20 +404,22 @@ button :hover{
 
 
 
-.fourth-partf{
+.fourth-partf {
     position: absolute;
     color: white;
     top: 145em;
     left: 45.2em;
 }
-.fourth-partf a{
+
+.fourth-partf a {
     text-decoration: none;
     color: white;
 }
-.fourth-partf .global a{
-    font-size: 1.5em ;
+
+.fourth-partf .global a {
+    font-size: 1.5em;
     text-decoration: none;
-    color:white;
+    color: white;
     background-color: none;
     padding: 10px;
     border-radius: 5px;
@@ -387,19 +427,23 @@ button :hover{
 
 
 }
-.fourth-parf .global a:hover{
-    background-color:#4374b9;
+
+.fourth-parf .global a:hover {
+    background-color: #4374b9;
     padding: 10px;
 }
-.fourth-partf-text p{
+
+.fourth-partf-text p {
     margin-bottom: 20px;
 
 }
-.fourth-partf-text h1{
+
+.fourth-partf-text h1 {
     margin-bottom: 20px;
 
 }
-.fourth-partf-text p{
+
+.fourth-partf-text p {
     font-size: 20px;
 
 }
@@ -409,3 +453,99 @@ button :hover{
 /* fourth part */
 
 
+
+/* At work section  start */
+.at-work {
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.paragraphs {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 60em;
+    left: 2em;
+
+}
+
+.paragraphs .at-work-part2 a {
+    text-decoration: none;
+    margin-left: 50em;
+    color: black;
+}
+.paragraphs .at-work-part2 a:hover{
+    background-color: rgb(177, 175, 175);
+    padding: 20px;
+    border-radius: 20px;
+}
+.house-tower{
+    /* width: 200%; */
+}
+.house-tower img{
+    position: absolute;
+    width: 40%;
+    top: 75em;
+    left: 10em;
+
+}
+.house-tower-text{
+    position: relative;
+    top: 70em;
+    left: 40em;
+    background-color:#DBEAFE;
+    width: 50%;
+    padding: 50px;
+    padding-left: 30px;
+}
+.house-tower-text p h2{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+
+
+}
+.house-tower-text a{
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+}
+.house-tower-text1{
+    position: absolute;
+    top:100em;
+    background-color: #c8cdf1;
+    padding: 30px;
+    
+}
+.house-tower-text2{
+    position: absolute;
+    top:110em;
+    background-color: #c8cdf1;
+    padding: 20px;
+    
+}
+.house-tower-text3{
+    position: absolute;
+    top:100em;
+    background-color: #c8cdf1;
+    left: 35em;
+    display: flex;
+    width:50%;
+    align-items: center;
+    
+}
+.house-tower-text3a img{
+    width: 80%;
+    overflow: hidden;
+}
+.house-tower-text3:hover{
+    background-color:#c8cdf1 ;
+}
+
+/* At work section  ends*/
+
+/* footer down  start */
+
+
+/* footer down  end */
