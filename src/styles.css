@@ -475,96 +475,109 @@ button :hover {
     margin-left: 50em;
     color: black;
 }
-.paragraphs .at-work-part2 a:hover{
+
+.paragraphs .at-work-part2 a:hover {
     background-color: rgb(177, 175, 175);
     padding: 20px;
     border-radius: 20px;
 }
-.house-tower{
+
+.house-tower {
     height: 400vh;
 }
 
-.house-tower img{
+.house-tower img {
     position: absolute;
     width: 40%;
     top: 75em;
     left: 10em;
 
 }
-.house-tower-text{
+
+.house-tower-text {
     position: relative;
     top: 70em;
     left: 40em;
-    background-color:#DBEAFE;
+    background-color: #DBEAFE;
     width: 50%;
     padding: 50px;
     padding-left: 30px;
 }
-.house-tower-text p h2{
+
+.house-tower-text p h2 {
     padding-top: 20px;
     margin-bottom: 20px;
     padding-left: 30px;
 
 
 }
-.house-tower-text a{
+
+.house-tower-text a {
     text-decoration: none;
     color: black;
     padding-top: 30px;
 }
-.house-tower-text1{
+
+.house-tower-text1 {
     position: absolute;
-    top:100em;
+    top: 100em;
     background-color: #c8cdf1;
     padding: 30px;
-    
+
 }
-.house-tower-text2{
+
+.house-tower-text2 {
     position: absolute;
-    top:110em;
+    top: 110em;
     background-color: #c8cdf1;
     padding: 20px;
-    
+
 }
-.house-tower-text3{
+
+.house-tower-text3 {
     position: absolute;
-    top:100em;
+    top: 100em;
     background-color: #c8cdf1;
     left: 35em;
     display: flex;
-    width:50%;
+    width: 50%;
     align-items: center;
-    
+
 }
-.house-tower-text3a img{
+
+.house-tower-text3a img {
     width: 80%;
     overflow: hidden;
 }
-.house-tower-text3:hover{
-    background-color:#c8cdf1 ;
+
+.house-tower-text3:hover {
+    background-color: #c8cdf1;
 }
 
 /* At work section  ends*/
 /* University events start */
-.university-event-header{
+.university-event-header {
     position: absolute;
     display: flex;
     bottom: -200em;
     top: 250em;
 }
-.class-university-event-header-left{
-     margin-right: 40em ;
-     padding-left: 30px;
+
+.class-university-event-header-left {
+    margin-right: 40em;
+    padding-left: 30px;
 }
-.class-university-event-header-right a{
+
+.class-university-event-header-right a {
     text-decoration: none;
     color: black;
 }
+
 /* University events Ends */
 
 
 /* footer upper start */
-.footer-upper{
+.footer-upper {
     position: absolute;
     display: flex;
     top: 282em;
@@ -574,19 +587,22 @@ button :hover {
 
     /* left: 30em; */
 }
-.footer-upper-navlinks{
+
+.footer-upper-navlinks {
     display: flex;
     list-style: none;
     padding-left: 20em;
     padding: 50px 20em;
 
 }
-.footer-upper-navlinks a:hover{
+
+.footer-upper-navlinks a:hover {
     background-color: #7c7e8d;
     border-radius: 10px;
     padding: 10px;
 }
-.footer-upper-navlinks a{
+
+.footer-upper-navlinks a {
     text-decoration: none;
     color: white;
     padding: 20px;
@@ -597,38 +613,44 @@ button :hover {
 
 
 /* footer middle start  */
-.middle-footer{
+.middle-footer {
     position: absolute;
     display: flex;
     top: 289em;
     margin-top: 50px;
-    
+
 }
-.middle-footer-left{
+
+.middle-footer-left {
     padding-left: 10px;
     margin-right: 20em;
 }
-.middle-footer-middle{
+
+.middle-footer-middle {
     margin-right: 20em;
 
 
 }
+
 .middle-footer-middle ul li {
     list-style: none;
     margin-bottom: 3px;
 
 }
- .middle-footer-middle ul li a{
+
+.middle-footer-middle ul li a {
     text-decoration: none;
     color: black;
 
 }
-.middle-footer-middle ul li a:hover{
+
+.middle-footer-middle ul li a:hover {
     background-color: #94A3B8;
     border-radius: 5px;
     padding: 5px;
-    margin-bottom:7px ;
+    margin-bottom: 7px;
 }
+
 /* .middle-footer-right{
     margin-left: 40px;
 
@@ -637,7 +659,8 @@ button :hover {
     list-style: none;
 
 }
-.middle-footer-right li a{
+
+.middle-footer-right li a {
     /* text-decoration: none; */
     color: black;
 
@@ -646,7 +669,7 @@ button :hover {
 
 /* footer middle ends */
 /* footer down  start */
-.footer-bar{
+.footer-bar {
     position: absolute;
     top: 300em;
     display: flex;
@@ -655,23 +678,27 @@ button :hover {
     padding: 30px;
     /* justify-content: space-between; */
 }
-.footer-bar .left-bars .left-bars-links{
+
+.footer-bar .left-bars .left-bars-links {
     display: flex;
     list-style: none;
 
 }
-.footer-bar .left-bars .left-bars-links a{
+
+.footer-bar .left-bars .left-bars-links a {
     text-decoration: none;
     padding: 20px;
     color: black;
 
 
 }
-.footer-bar .left-barsb .left-bars-links{
+
+.footer-bar .left-barsb .left-bars-links {
     display: flex;
     list-style: none;
 }
-.footer-bar .left-barsb .left-bars-links a{
+
+.footer-bar .left-barsb .left-bars-links a {
     text-decoration: none;
     padding: 20px;
     color: black;
@@ -680,4 +707,3 @@ button :hover {
 
 
 /* footer down  end */
-
