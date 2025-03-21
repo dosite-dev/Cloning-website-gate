@@ -543,6 +543,75 @@ button :hover {
 
 /* At work section  ends*/
 
+/* footer upper start */
+.footer-upper{
+    position: absolute;
+    display: flex;
+    top: 239em;
+    /* bottom: 100em; */
+    background-color: #1E1B4B;
+    width: 100%;
+
+    /* left: 30em; */
+}
+.footer-upper-navlinks{
+    display: flex;
+    list-style: none;
+    padding-left: 20em;
+    padding: 20px 20em;
+
+}
+.footer-upper-navlinks a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+/* footer upper end */
+
+
+
+/* footer middle start  */
+.middle-footer{
+    position: absolute;
+    display: flex;
+    top: 240em;
+    margin-top: 50px;
+    
+}
+.middle-footer-left{
+    padding-left: 10px;
+    margin-right: 20em;
+}
+.middle-footer-middle{
+    margin-right: 20em;
+
+}
+.middle-footer-middle ul li {
+    list-style: none;
+
+}
+ .middle-footer-middle ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+/* .middle-footer-right{
+    margin-left: 40px;
+
+} */
+.middle-footer-right li {
+    list-style: none;
+
+}
+.middle-footer-right li a{
+    /* text-decoration: none; */
+    color: black;
+
+}
+
+
+/* footer middle ends */
 /* footer down  start */
 .footer-bar{
     position: absolute;
@@ -579,43 +648,3 @@ button :hover {
 
 /* footer down  end */
 
-/* footer middle start  */
-.middle-footer{
-    position: absolute;
-    display: flex;
-    top: 240em;
-    
-}
-.middle-footer-left{
-    padding-left: 10px;
-    margin-right: 20em;
-}
-.middle-footer-middle{
-    margin-right: 20em;
-
-}
-.middle-footer-middle ul li {
-    list-style: none;
-
-}
- .middle-footer-middle ul li a{
-    text-decoration: none;
-    color: black;
-
-}
-/* .middle-footer-right{
-    margin-left: 40px;
-
-} */
-.middle-footer-right li {
-    list-style: none;
-
-}
-.middle-footer-right li a{
-    /* text-decoration: none; */
-    color: black;
-
-}
-
-
-/* footer middle ends */
