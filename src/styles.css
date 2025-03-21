@@ -226,7 +226,7 @@ button :hover{
     background-color: #1E1B4B;
     position: relative;
     top: 45em;
-    height: 100vh;
+    height: 190vh;
 
 }
 .fourth-parta img{
@@ -283,10 +283,126 @@ button :hover{
 
 
 /* fourthc starts */
+.fourth-partc{
+    position: absolute;
+    top: 30em;
+    color: white;
+
+}
+.fourth-partc .faith a{
+    text-decoration: none;
+    color: white;
+    top: 50em;
+
+
+}
+.fourth-partc-text p{
+    font-size: 20px;
+    margin-bottom: 50px;
+
+}
+.fourth-partc .faith a{
+    font-size: 1.5em ;
+    text-decoration: none;
+    color:white;
+    background-color: none;
+    padding: 10px;
+    border-radius: 5px;
+
+
+
+}
+.fourth-partc .faith a:hover{
+    background-color:#94A3B8;
+    padding: 10px;
+}
+.fourth-partc-text p{
+    margin-bottom: 20px;
+
+}
+.fourth-partc-text h1{
+    margin-bottom: 20px;
+
+}
+
+
 
 
 /* fourthc ends */
+/* fourthd ends */
 
+.fourth-d .image{
+    position: absolute;
+    width: 50%;
+    top: 30em;
+    left: 42.2em;
+
+ /* width: 60px; */
+}
+.fourth-d .image img{
+    width: 100%;
+    
+}
+
+/* fourthd ends */
+/* fourthe ends */
+
+.fourth-e .imagee{
+    position: absolute;
+
+    width: 50%;
+    /* left: 42.2em; */
+    top: 142em;
+
+
+}
+.fourth-e .imagee img{
+    width: 100%;
+    
+}
+
+
+/* fourthe ends */
+
+
+
+.fourth-partf{
+    position: absolute;
+    color: white;
+    top: 145em;
+    left: 45.2em;
+}
+.fourth-partf a{
+    text-decoration: none;
+    color: white;
+}
+.fourth-partf .global a{
+    font-size: 1.5em ;
+    text-decoration: none;
+    color:white;
+    background-color: none;
+    padding: 10px;
+    border-radius: 5px;
+
+
+
+}
+.fourth-parf .global a:hover{
+    background-color:#4374b9;
+    padding: 10px;
+}
+.fourth-partf-text p{
+    margin-bottom: 20px;
+
+}
+.fourth-partf-text h1{
+    margin-bottom: 20px;
+
+}
+.fourth-partf-text p{
+    font-size: 20px;
+
+}
 
 
 
