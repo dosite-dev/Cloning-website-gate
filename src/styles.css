@@ -480,6 +480,9 @@ button :hover {
     padding: 20px;
     border-radius: 20px;
 }
+.house-tower{
+    height: 400vh;
+}
 
 .house-tower img{
     position: absolute;
@@ -542,12 +545,29 @@ button :hover {
 }
 
 /* At work section  ends*/
+/* University events start */
+.university-event-header{
+    position: absolute;
+    display: flex;
+    bottom: -200em;
+    top: 250em;
+}
+.class-university-event-header-left{
+     margin-right: 40em ;
+     padding-left: 30px;
+}
+.class-university-event-header-right a{
+    text-decoration: none;
+    color: black;
+}
+/* University events Ends */
+
 
 /* footer upper start */
 .footer-upper{
     position: absolute;
     display: flex;
-    top: 239em;
+    top: 289em;
     /* bottom: 100em; */
     background-color: #1E1B4B;
     width: 100%;
@@ -575,7 +595,7 @@ button :hover {
 .middle-footer{
     position: absolute;
     display: flex;
-    top: 240em;
+    top: 290em;
     margin-top: 50px;
     
 }
@@ -615,7 +635,7 @@ button :hover {
 /* footer down  start */
 .footer-bar{
     position: absolute;
-    top: 250em;
+    top: 300em;
     display: flex;
     background-color: rgb(206, 204, 204);
     width: 100%;
