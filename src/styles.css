@@ -3,6 +3,10 @@
     border: 0;
     box-sizing: border-box;
 }
+.container{
+position: relative;
+background-color: url(pictures/feature-800.webp);
+}
 /* navbar upper section start */
 .header{
     width: 100%;
@@ -25,6 +29,9 @@
     background-color: #1E1B4B;
     padding: 40px;    
 }
+.navbar .nav-links:hover{
+    background-color: ;
+}
 
 .navbar .nav-links a{
     text-decoration: none;
@@ -33,3 +40,76 @@
 }
 
 /* navbar upper section ends */
+/* second part start */
+
+
+.second-part{
+/* background-color: url(pictures/feature-bg-1600.jpeg); */
+display: flex;
+justify-content: space-between;
+position: relative;
+
+}
+/* navbar2 down section starts */
+
+.header2{
+    width: 50%;
+    color: white;
+    position: absolute;
+    left: 550px;
+}
+.navbar2{
+    background-color: #1E1B4B;
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+
+
+.navbar2 .nav-links2{
+    display: flex;
+    float: right;
+    list-style: none;
+    background-color:white;
+    padding: 20px;    
+}
+
+.navbar2 .nav-links2 a{
+    text-decoration: none;
+    color:black;
+    padding:20px
+}
+
+/* navbar2 down section Ends */
+
+
+.second-part1{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    
+
+}
+.second-part1 p{
+    font-size: 50px;
+}
+.second-part1 h6{
+    font-size: 20px;
+}
+.second-part2{
+    position: absolute;
+    left: 700px;
+    top: 100px;
+
+    
+}
+.second-part2 img{
+    width: 100%;
+    margin-right: 0px;
+
+}
+
+/* second part ends */
+
