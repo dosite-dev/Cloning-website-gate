@@ -578,3 +578,44 @@ button :hover {
 
 
 /* footer down  end */
+
+/* footer middle start  */
+.middle-footer{
+    position: absolute;
+    display: flex;
+    top: 240em;
+    
+}
+.middle-footer-left{
+    padding-left: 10px;
+    margin-right: 20em;
+}
+.middle-footer-middle{
+    margin-right: 20em;
+
+}
+.middle-footer-middle ul li {
+    list-style: none;
+
+}
+ .middle-footer-middle ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+/* .middle-footer-right{
+    margin-left: 40px;
+
+} */
+.middle-footer-right li {
+    list-style: none;
+
+}
+.middle-footer-right li a{
+    /* text-decoration: none; */
+    color: black;
+
+}
+
+
+/* footer middle ends */
